@@ -7,9 +7,9 @@ export default function App() {
   return (
     <div>
       <nav>
-        <Link to="/">Accueil</Link> 
-        <Link to="/">A propos</Link> 
-        <Link to="/">Utilisateur 5</Link> 
+        <Link to="/">Accueil</Link>
+        <Link to="/about">A propos</Link>
+        <Link to="/user/5">Utilisateur 5</Link>
       </nav>
 
       <Routes>
